@@ -1,0 +1,279 @@
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Dance Academy</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Dance Academy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+              
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Other Dance
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Folk Dance<span class="badge badge-danger">  New</span>
+                      </a>
+                      <a class="dropdown-item" href="#">Swing Dance <span class="badge badge-danger">  New</span></a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Modern Dance</a>
+                      <a class="dropdown-item" href="#">Jazz</a>
+                      <a class="dropdown-item" href="#">Contemporary</a>
+                      <a class="dropdown-item" href="#">Ballroom</a>
+                      <a class="dropdown-item" href="#">Ballet</a>
+                      <a class="dropdown-item" href="#">Shadow bass</a>
+                      <a class="dropdown-item" href="#">Smallmouth grunt</a>
+
+
+                    </div>
+                  </li>
+
+                
+
+
+
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-danger" type="submit">Search</button>
+            </form>
+            <div class="mx-2">
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
+                    Login
+                </button>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal2">
+                    Sign Up
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--sign up-->
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModal2Label"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="fname">First name:</label>
+                            <input type="text" id="fname" name="fname"><br><br>
+                            <label for="lname">Last name:</label>
+                            <input type="text" id="lname" name="lname"><br>
+                            <br>
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="cexampleInputPassword1" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="cexampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Create Account</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <form>
+        <div class="container form-group my-5 border-1">
+         <div class="mb-3">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname">
+                <label for="lname">&nbsp Last name:</label>
+                <input type="text" id="lname" name="lname"><br>
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <br>
+          <label for="exampleFormControlTextarea1">Tell Us your Querry</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+
+        </div>
+        <div class="container">
+            <button class="btn-danger">Submit
+                
+            </button>
+        </div>
+       
+      </form>
+
+      <!--Footer-->
+      <div class="container">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-4">
+                    <h5>OVERVIEW</h5>
+                    <ul class="nav flex-column">
+
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About us</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy Policy</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms & Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-4">
+                    <h5>OTHERS</h5>
+                    <ul class="nav flex-column">
+
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Advertise with Us</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Carrers</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Customer Care</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-4 border-dark">
+                    <h5>CONNECT WITH US</h5>
+                    <ul class="nav flex-column">
+
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">1800 200
+                                30000(Toll-Free)</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">support@shivam.com</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Dealer solution </a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted" data-bs-toggle="tooltip"
+                                data-bs-placement="right" title="8757186436">
+
+                                Contact Us</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Feedback</a></li>
+                    </ul>
+                </div>
+
+
+<div class="container">
+                <div class="d-flex justify-content-between py-4 my-4 border-top">
+                    <p>© 2021 Company, Inc. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-dark" data-bs-toggle="tooltip" data-bs-placement="right"
+                                title="Facebook" href="https://www.facebook.com/home.php"><img src="facebook.jpg"
+                                    width="24" height="24"></a></li>
+                        <li class="ms-3"><a class="link-dark" data-bs-toggle="tooltip" data-bs-placement="right"
+                                title="Instagram" href="https://www.instagram.com/"><img src="instagram.jpg" width="24"
+                                    height="24"></a></li>
+                        <li class="ms-3"><a class="link-dark" data-bs-toggle="tooltip" data-bs-placement="right"
+                                title="Twitter" href="https://twitter.com/home?lang=en"><img src="Twitter.jpg"
+                                    width="24" height="24"></a></li>
+                    </ul>
+   
+                </div>
+                </div>
+        </footer>
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
